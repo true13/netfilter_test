@@ -69,7 +69,6 @@ static u_int32_t print_pkt (struct nfq_data *tb)
 		dump(data, ret);
 	}
     fputc('\n', stdout);
-
     return id;
 }
 
